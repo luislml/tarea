@@ -20,12 +20,19 @@
 	</script>
 	<script type="text/javascript">
 		jQuery(document).ready(function($) {
-			var datos =["Luis","Javier","Franco","Mario","Franz","Hugo","Victor"];
+			var datos =["Luis","Javier","Franco","Mario","Franz","Hugo","Victor","Franco"];
 			datos.borrar("Franco");
 			console.log(datos);
 		});
 	</script>
-	
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			var datos =["Luis","Javier","Franco","Mario","Franz","Hugo","Victor","Franco","Javier","Franco","Mario","Franz","Hugo","Victor","Franco","Javier","Franco","Mario","Franz","Hugo","Victor","Franco","Javier","Franco","Mario","Franz","Hugo","Victor","Franco"];
+			console.log(datos);
+			datos.Eliminarduplicados();
+			console.log(datos);
+		});
+	</script>
 	
 </body>
 </html>
